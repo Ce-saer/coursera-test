@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center ;
+} 
+
+section {
+	background: blue;
+	margin: 18px;
+	width: 100%;
+}
+	
+header {
+	text-align: right;
+	background-color: grey;
+}
+
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+		width: 29%;
+		float: left;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 45%;
+		float: left;
+	}
+	.col-md-12 {
+		width: 98%;
+		float: left;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.col-sm-12 {
+		width: 98%;
+	}
+}
