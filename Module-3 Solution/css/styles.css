@@ -1,0 +1,49 @@
+#header-nav {
+	background-color: lightblue;
+	border-radius: 0;
+	border: solid black;
+	padding: 20px;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-shadow: 1px black;
+}
+
+#collapsed-contents li {
+	border: solid black;
+	padding: 5px;
+	background-color: white;
+	text-align: center;
+	font-weight: 500;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+h1 {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+	margin: 10px;
+}
+
+section {
+	margin: 50px;
+	background: blanchedalmond;
+	height: 1000px;
+	font-family: 'Oxygen', sans-serif;
+	padding: 5px;
+	font-weight: bold;
+}
+
+#topic {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#section-text {
+	text-align: left;
+	font-size: 0.7em;
+	padding-top: 5px;
+}
